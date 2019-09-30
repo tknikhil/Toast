@@ -1,15 +1,15 @@
-package com.nikhil.toast;
+package com.nikhil.screenorinetation;
 
 import android.content.Context;
-
-import org.junit.Test;
-import org.junit.runner.RunWith;
-
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.runner.AndroidJUnit4;
 
-import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.*;
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -23,6 +23,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.nikhil.toast", appContext.getPackageName());
+        assertEquals("com.nikhil.screenorinetation", appContext.getPackageName());
     }
 }
